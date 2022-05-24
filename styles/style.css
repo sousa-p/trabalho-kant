@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #383a59;
+}
+nav {
+    width: 100%;
+}
+main {
+    padding-top: 75px;
+    width: 85%;
+    margin: 0 auto;
+}
+main .d-flex {
+    gap: 15px;
+}
+
+main .d-flex .lead {
+    max-width: 65%;
+}
+
+#kant-img {
+    height: fit-content;
+    width: fit-content;
+}
+
+.container-text {
+    border-top: 2px solid;
+    padding-top: 30px;
+    padding-bottom: 65px;
+}
+.citacao {
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    display: block;
+    padding-top: 15px;
+}
+
+.wrapper-text {
+    padding-top: 60px;
+}
+.space-top {
+    padding-top: 30px;
+}
+
+.lis-text > li {
+    padding-top: 60px;
+}
+
+.lis-text > li > p.h4 {
+    padding-bottom: 30px;
+}
+
+.lis-text > li > p.h4::after {
+    content: " -";
+}
+
+footer {
+    margin-top: 100px;
+}
+
+footer > div > ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer > div > div > ul > p {
+    color: white;
+}
+
+footer .lead {
+    font-size: 0.95rem;
+}
+
+@media (max-width: 1350px) {
+    main .d-flex .lead {
+        max-width: 100%;
+    }
+    #container-text-1 {
+        flex-wrap: wrap !important;
+    }
+    #kant-img {
+        margin: 0 auto;
+    }
+    footer > .d-flex {
+        flex-wrap: wrap !important;
+    }
+}
+
+@media (max-width: 750px) {
+    main {
+        width: 92.5%;
+    }
+
+    ul,
+    main > .container-fluid {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    #kant-img {
+        width: 100%;
+        height: fit-content;
+    }
+    .lead {
+        font-size: 1.15rem !important;
+    }
+
+    footer .lead {
+        font-size: 0.9rem !important;
+    }
+}
