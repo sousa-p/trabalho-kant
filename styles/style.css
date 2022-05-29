@@ -23,8 +23,7 @@ main .d-flex .lead {
 }
 
 #kant-img {
-    height: fit-content;
-    width: fit-content;
+    width: 50%;
 }
 
 .container-text {
@@ -108,6 +107,11 @@ footer .lead {
     }
     .lead {
         font-size: 1.15rem !important;
+    }
+
+    footer .d-flex .container-fluid {
+        padding: 20px 0px;
+        padding-left: 30px;
     }
 
     footer .lead {
