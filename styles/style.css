@@ -4,6 +4,7 @@
 }
 
 body {
+    max-width: 100% !important;
     background: #383a59;
     overflow-x: hidden;
 }
@@ -11,7 +12,7 @@ header {
     z-index: 999999;
 }
 nav {
-    width: 100%;
+    width: 100%:
     z-index: 999999;
 }
 main {
