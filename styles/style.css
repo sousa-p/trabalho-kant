@@ -4,9 +4,7 @@
 }
 
 body {
-    max-width: 100% !important;
     background: #383a59;
-    overflow-x: hidden;
 }
 header {
     z-index: 999999;
@@ -19,6 +17,9 @@ main {
     width: 85%;
     margin: 0 auto;
 }
+.lead {
+    text-align: justify;
+}
 main .d-flex {
     gap: 15px;
 }
@@ -26,12 +27,6 @@ main .d-flex {
 main .d-flex .lead {
     max-width: 65%;
 }
-.none {
-    opacity: -10000% !important;
-    color: none !important;
-    border: none !important;
-}
-
 #kant-img {
     width: 50%;
     z-index: -99999;
