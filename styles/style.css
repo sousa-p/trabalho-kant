@@ -5,9 +5,14 @@
 
 body {
     background: #383a59;
+    overflow-x: hidden;
+}
+header {
+    z-index: 999999;
 }
 nav {
     width: 100%;
+    z-index: 999999;
 }
 main {
     padding-top: 75px;
@@ -20,6 +25,11 @@ main .d-flex {
 
 main .d-flex .lead {
     max-width: 65%;
+}
+.none {
+    opacity: -10000% !important;
+    color: none !important;
+    border: none !important;
 }
 
 #kant-img {
